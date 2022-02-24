@@ -29,7 +29,7 @@
 <dependency>
   <groupId>top.bluer</groupId>
   <artifactId>bluer-fis</artifactId>
-  <version>x.x.x-RELEASE</version>
+  <version>0.0.1-RELEASE</version>
 </dependency>
 ~~~
 
