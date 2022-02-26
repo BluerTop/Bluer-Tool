@@ -1,4 +1,4 @@
-package top.bluer.files.utils;
+package top.bluer.fis.utils;
 
 /**
  * @program: Bluer-Tool

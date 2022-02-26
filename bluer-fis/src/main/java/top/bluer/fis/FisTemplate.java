@@ -1,4 +1,4 @@
-package top.bluer.files;
+package top.bluer.fis;
 
 import org.springframework.web.multipart.MultipartFile;
 

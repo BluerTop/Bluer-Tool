@@ -9,22 +9,24 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>bluer-test</artifactId>
-    <dependencies>
-        <dependency>
-            <groupId>top.bluer</groupId>
-            <artifactId>bluer-fis</artifactId>
-            <version>0.0.1</version>
-        </dependency>
-        <dependency>
-            <groupId>top.bluer</groupId>
-            <artifactId>bluer-result</artifactId>
-            <version>0.0.1</version>
-        </dependency>
-    </dependencies>
+    <artifactId>bluer-result</artifactId>
+    <name>bluer-result</name>
+    <version>0.0.1</version>
+    <packaging>jar</packaging>
+
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
     </properties>
 
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-autoconfigure</artifactId>
+        </dependency>
+    </dependencies>
 </project>

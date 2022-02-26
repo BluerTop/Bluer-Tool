@@ -1,8 +1,8 @@
-package top.bluer.files.impl;
+package top.bluer.fis.impl;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.multipart.MultipartFile;
-import top.bluer.files.FisTemplate;
+import top.bluer.fis.FisTemplate;
 
 /**
  * @program: Bluer-Tool

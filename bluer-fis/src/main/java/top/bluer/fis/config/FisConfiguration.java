@@ -1,18 +1,18 @@
-package top.bluer.files.config;
+package top.bluer.fis.config;
 
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.util.StringUtils;
-import top.bluer.files.FisTemplate;
-import top.bluer.files.impl.*;
+import top.bluer.fis.FisTemplate;
+import top.bluer.fis.impl.*;
 
 import javax.annotation.Resource;
 
 /**
  * @program: Bluer-Tool
- * @description: Files 自动配置
+ * @description: fis 自动配置
  * @author: bluer
  * @date: 2022-02-18 11:47
  * codes: 扁鹊

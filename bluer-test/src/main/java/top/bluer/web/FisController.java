@@ -2,7 +2,7 @@ package top.bluer.web;
 
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
-import top.bluer.files.FisTemplate;
+import top.bluer.fis.FisTemplate;
 
 import javax.annotation.Resource;
 

@@ -1,4 +1,4 @@
-package top.bluer.files.impl;
+package top.bluer.fis.impl;
 
 import com.qiniu.storage.BucketManager;
 import com.qiniu.storage.Configuration;
@@ -8,9 +8,9 @@ import com.qiniu.util.Auth;
 import lombok.SneakyThrows;
 import org.springframework.util.StringUtils;
 import org.springframework.web.multipart.MultipartFile;
-import top.bluer.files.FisTemplate;
-import top.bluer.files.config.FisProperties;
-import top.bluer.files.utils.FileUtil;
+import top.bluer.fis.FisTemplate;
+import top.bluer.fis.config.FisProperties;
+import top.bluer.fis.utils.FileUtil;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;

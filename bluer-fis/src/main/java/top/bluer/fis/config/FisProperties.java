@@ -1,4 +1,4 @@
-package top.bluer.files.config;
+package top.bluer.fis.config;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
@@ -25,7 +25,7 @@ public class FisProperties implements Serializable {
      */
     private String type;
     /**
-     * 上传路径（本地+阿里云适用）
+     * 上传路径（本地+阿里云+Minio+七牛云）
      */
     private String path;
     /**

@@ -1,0 +1,3 @@
+# Auto Configure
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+top.bluer.result.config.BluerWebResultConfig,top.bluer.result.handler.BluerResponseResultHandler,top.bluer.result.handler.BluerGlobalExceptionHandler
